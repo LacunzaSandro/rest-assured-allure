@@ -1,0 +1,55 @@
+{
+  "uid" : "a689f7883ef1e5ff",
+  "name" : "putUserTest",
+  "fullName" : "ReqResTests_4.putUserTest",
+  "historyId" : "2b74d10c11a29fb645816c0e9ce2c5a6",
+  "time" : {
+    "start" : 1643746306305,
+    "stop" : 1643746307427,
+    "duration" : 1122
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReqResTests_4"
+  }, {
+    "name" : "testMethod",
+    "value" : "putUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResTests_4"
+  }, {
+    "name" : "host",
+    "value" : "AR-IT25022"
+  }, {
+    "name" : "thread",
+    "value" : "13432@AR-IT25022.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a689f7883ef1e5ff.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests_4" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-02-01T20:11:46" hostname="AR-IT25022" time="3.298">
+  <properties/>
+  <testcase name="putUserTest" classname="ReqResTests_4" time="1.124"/>
+  <testcase name="patchUserTest" classname="ReqResTests_4" time="1.071"/>
+  <testcase name="deleteUserTest" classname="ReqResTests_4" time="1.1"/>
+  <system-out><![CDATA[Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 20:11:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"50-76Pi+9ddR8UHlctZUe407A61MMY"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dYKQubcZWZqcbzKXPml8eekbQG2B1lqDTjFNZA7GYXry2nhr3%2BfaA4ddz4hw9sN9MYLPd8sMMxp%2FdQnBDbAQCoBQ3EtzAmCqJgY75BrnrZcujCNM5xSg5Rqy9QU%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6d6dd4b0dbcb036a-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-02-01T20:11:46.907Z"
+}
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 20:11:46 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"50-76Pi+9ddR8UHlctZUe407A61MMY"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dYKQubcZWZqcbzKXPml8eekbQG2B1lqDTjFNZA7GYXry2nhr3%2BfaA4ddz4hw9sN9MYLPd8sMMxp%2FdQnBDbAQCoBQ3EtzAmCqJgY75BrnrZcujCNM5xSg5Rqy9QU%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 6d6dd4b0dbcb036a-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-02-01T20:11:46.907Z"
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+Request method:	PATCH
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 20:11:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"50-V41YeiWxDHladuHAP2PUzhZh6J4"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hXPqvHH2D4qdAJyPMUx5vnki7tgvdJRgyKabU41yrY7KOMUCtzo5Z40o6Z9sP8%2FKPEbqS9tu7k8n82nk9r2IWNmfacKXFsSBrKf9oPt9OPKWylAd%2Bss4dX1czbY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4b7aa220a3e-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-02-01T20:11:47.982Z"
+}
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 20:11:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"50-V41YeiWxDHladuHAP2PUzhZh6J4"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hXPqvHH2D4qdAJyPMUx5vnki7tgvdJRgyKabU41yrY7KOMUCtzo5Z40o6Z9sP8%2FKPEbqS9tu7k8n82nk9r2IWNmfacKXFsSBrKf9oPt9OPKWylAd%2Bss4dX1czbY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4b7aa220a3e-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-02-01T20:11:47.982Z"
+}
+HTTP/1.1 200 OK
+Date: Tue, 01 Feb 2022 20:11:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"50-V41YeiWxDHladuHAP2PUzhZh6J4"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hXPqvHH2D4qdAJyPMUx5vnki7tgvdJRgyKabU41yrY7KOMUCtzo5Z40o6Z9sP8%2FKPEbqS9tu7k8n82nk9r2IWNmfacKXFsSBrKf9oPt9OPKWylAd%2Bss4dX1czbY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4b7aa220a3e-MIA
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2022-02-01T20:11:47.982Z"
+}
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Tue, 01 Feb 2022 20:11:49 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ma%2FdrtAoLHTch8u%2FkxOgRcUhr2FJK9kmnFXreNfJYSyWaJ%2BpL32HNvcb82AtmgJaCQDzhqd17XcejmCEq11hOAECjVr5C%2BbYksBJ1%2BZSx2zbrPMbjJPaW%2BcWErM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4be8dec0341-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 204 No Content
+Date: Tue, 01 Feb 2022 20:11:49 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ma%2FdrtAoLHTch8u%2FkxOgRcUhr2FJK9kmnFXreNfJYSyWaJ%2BpL32HNvcb82AtmgJaCQDzhqd17XcejmCEq11hOAECjVr5C%2BbYksBJ1%2BZSx2zbrPMbjJPaW%2BcWErM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4be8dec0341-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 204 No Content
+Date: Tue, 01 Feb 2022 20:11:49 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ma%2FdrtAoLHTch8u%2FkxOgRcUhr2FJK9kmnFXreNfJYSyWaJ%2BpL32HNvcb82AtmgJaCQDzhqd17XcejmCEq11hOAECjVr5C%2BbYksBJ1%2BZSx2zbrPMbjJPaW%2BcWErM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4be8dec0341-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 204 No Content
+Date: Tue, 01 Feb 2022 20:11:49 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ma%2FdrtAoLHTch8u%2FkxOgRcUhr2FJK9kmnFXreNfJYSyWaJ%2BpL32HNvcb82AtmgJaCQDzhqd17XcejmCEq11hOAECjVr5C%2BbYksBJ1%2BZSx2zbrPMbjJPaW%2BcWErM%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6d6dd4be8dec0341-MIA
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
