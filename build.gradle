@@ -52,8 +52,8 @@ test {
 
 allure {
     version = "2.8.1"
-    //reportDir = file("build/allure-results")
-    //downloadLinkFormat = "https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/%s/allure-commandline-%<s.zip"
+    reportDir = file("build/allure-results")
+    downloadLinkFormat = "https://repo1.maven.org/maven2/io/qameta/allure/allure-commandline/%s/allure-commandline-%<s.zip"
     aspectjweaver = true
     autoconfigure = true
 }

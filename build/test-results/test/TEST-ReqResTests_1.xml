@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T21:23:36" hostname="AR-IT25022" time="2.909">
+  <properties/>
+  <testcase name="loginTest" classname="ReqResTests_1" time="2.909"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:22:53 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=94FX8ZfS2jtOP6oa5qRG50SsZnToCmeNDtQv2WQ8t%2FCLXY%2BO6rq8CJDsqH2Y25Nfdl%2BncNvIZYFPf1c86IYSLA0AONBpsWwqLwWDChdiWbiI%2Bp%2FrvozBH8qalQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec13acbb4ba67-EZE
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+{"token":"QpwL5tke4Pnpja7X4"}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/sandro.lacunza/.gradle/caches/4.6/generated-gradle-jars/gradle-api-4.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/sandro.lacunza/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.gradle.internal.logging.slf4j.OutputEventListenerBackedLoggerContext]
+]]></system-err>
+</testsuite>

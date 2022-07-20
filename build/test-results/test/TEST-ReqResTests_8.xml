@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests_8" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T21:23:46" hostname="AR-IT25022" time="0.675">
+  <properties/>
+  <testcase name="registerUserTest" classname="ReqResTests_8" time="0.675"/>
+  <system-out><![CDATA[2022-07-20T18:23:46,465 [Test worker] INFO  (ReqResTests_8.java:24) - Iniciando la configuracion
+2022-07-20T18:23:46,467 [Test worker] INFO  (ReqResTests_8.java:31) - finalizando la configuraciÃ³n
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Jul 2022 21:23:01 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kPvBcCSJ8ZTB2b91medRq9bA1AEfdtHhJIk9iQaWvvK4mfLgBopmFwT5Iw%2Fk1d%2BkdgQUo6fvHmDk6z115H3%2BOmYUXh1QPjSr%2BSYP3HywIMgax5MoMphBQZlt4Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72dec16baaf6ba65-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+******************* ASSERT *********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
