@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTests_2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-01T20:11:43" hostname="AR-IT25022" time="2.091">
-  <properties/>
-  <testcase name="loginTestAndUseMatcher" classname="ReqResTests_2" time="2.091"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

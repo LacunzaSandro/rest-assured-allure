@@ -1,0 +1,55 @@
+{
+  "uid" : "537b305f43cd68ae",
+  "name" : "getAllUsersTest",
+  "fullName" : "ReqResTests_6.getAllUsersTest",
+  "historyId" : "fbe265fe46883198bc1b50d179eeb331",
+  "time" : {
+    "start" : 1643896248702,
+    "stop" : 1643896249606,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReqResTests_6"
+  }, {
+    "name" : "testMethod",
+    "value" : "getAllUsersTest"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResTests_6"
+  }, {
+    "name" : "host",
+    "value" : "AR-IT25022"
+  }, {
+    "name" : "thread",
+    "value" : "17624@AR-IT25022.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "537b305f43cd68ae.json",
+  "parameterValues" : [ ]
+}
