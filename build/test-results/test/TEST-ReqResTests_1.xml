@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTests_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T21:23:36" hostname="AR-IT25022" time="2.909">
+<testsuite name="ReqResTests_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T22:39:13" hostname="AR-IT25022" time="3.247">
   <properties/>
-  <testcase name="loginTest" classname="ReqResTests_1" time="2.909"/>
+  <testcase name="loginTest" classname="ReqResTests_1" time="3.247"/>
   <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Wed, 20 Jul 2022 21:22:53 GMT
+Date: Wed, 20 Jul 2022 22:38:30 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 29
 Connection: keep-alive
@@ -13,10 +13,10 @@ Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=94FX8ZfS2jtOP6oa5qRG50SsZnToCmeNDtQv2WQ8t%2FCLXY%2BO6rq8CJDsqH2Y25Nfdl%2BncNvIZYFPf1c86IYSLA0AONBpsWwqLwWDChdiWbiI%2Bp%2FrvozBH8qalQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=24ytj37KBxHUj0vIgB5LDzCFoNgyLOggq1dPkrTOKqIV57R7p0xjL6ghsBzlMJjC5eL1Xi2P%2BR9olf8lodQnKsPsw5ymtKLrTyPba%2B6WPoDp7SGih3h3DSP9hQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 72dec13acbb4ba67-EZE
+CF-RAY: 72df2fffac05ba77-EZE
 
 {
     "token": "QpwL5tke4Pnpja7X4"
