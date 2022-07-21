@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTests_6" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T03:52:01" hostname="AR-IT25022" time="0.234">
+<testsuite name="ReqResTests_6" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T22:43:39" hostname="AR-IT25022" time="0.318">
   <properties/>
-  <testcase name="getAllUsersTest" classname="ReqResTests_6" time="0.234"/>
+  <testcase name="getAllUsersTest" classname="ReqResTests_6" time="0.318"/>
   <system-out><![CDATA[Request method:	GET
 Request URI:	https://reqres.in/api/users?page=2
 Proxy:			<none>
@@ -86,8 +86,10 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+19:43:39.350 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+19:43:39.529 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -97,13 +99,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -161,7 +163,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -171,13 +173,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -235,7 +237,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -245,13 +247,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -309,7 +311,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -319,13 +321,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -383,7 +385,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -393,13 +395,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -457,7 +459,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -467,13 +469,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {
@@ -531,7 +533,7 @@ Content-Encoding: gzip
     }
 }
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:15 GMT
+Date: Thu, 21 Jul 2022 22:42:53 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -541,13 +543,13 @@ Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 1224
+Age: 5183
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hEpv6tYU4a3h3eLKwODjCUR1bVnzpof0MK%2BDUiqze7%2B6CXO1U8DCYR5vcMbKQsEwLR1dzYwtcNtcX5JWBIiIkr1cx8hNbJSEVTejLp%2B%2BwMCyPw8o8gd5GmC2%2Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dhgc6KEAk12ylHtCvO1JjmtCnpdvtS8YIJ7ETst39OrXra0%2F%2BI2NCPbDZxW6UIheIFM3%2F8z2o67q8T3UEw1c2TaYRCxHoiH7zWil7H4bqf0A05zXKrgjtAuy5w%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 72e0fa2328ddba6d-EZE
+CF-RAY: 72e773cf0e8cba73-EZE
 Content-Encoding: gzip
 
 {

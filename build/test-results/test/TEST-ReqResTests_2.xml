@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTests_2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T03:51:57" hostname="AR-IT25022" time="1.37">
+<testsuite name="ReqResTests_2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T22:43:34" hostname="AR-IT25022" time="1.238">
   <properties/>
-  <testcase name="loginTestAndUseMatcher" classname="ReqResTests_2" time="1.37"/>
+  <testcase name="loginTestAndUseMatcher" classname="ReqResTests_2" time="1.238"/>
   <system-out><![CDATA[Request method:	POST
 Request URI:	https://reqres.in/api/login
 Proxy:			<none>
@@ -18,8 +18,10 @@ Body:
     "email": "eve.holt@reqres.in",
     "password": "cityslicka"
 }
+19:43:34.643 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+19:43:35.381 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
 HTTP/1.1 200 OK
-Date: Thu, 21 Jul 2022 03:51:12 GMT
+Date: Thu, 21 Jul 2022 22:42:49 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 29
 Connection: keep-alive
@@ -29,10 +31,10 @@ Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Qhr43AzIRz%2FxkDf1DxbUEBUbg%2Fd3e3u%2B9GewkkeAKD2a%2F5SKJ4w7sWWSHKa1pSE%2BKGvqQrjYBlUciea7paFmuplq9PTiz5fGkmYDlrwJBW%2BnHm4vsDrgHCh%2FGQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nB883KwugjyhFz0KF2dUzIxlpo%2BiMmzN5FqZEbMNxOkKkDA4oK16PiRDD1qxFX9CPgfI6UfiYE0tS97KMIoSpiVcixJhB8%2BJ4z1xY42Q96IPHoA0%2BBAZOdqVeQ%3D%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 72e0fa0cf8dcba79-EZE
+CF-RAY: 72e773b20ce6ba68-EZE
 
 {
     "token": "QpwL5tke4Pnpja7X4"
