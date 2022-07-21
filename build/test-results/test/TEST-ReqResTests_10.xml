@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests_10" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T03:51:55" hostname="AR-IT25022" time="1.879">
+  <properties/>
+  <testcase name="registerUserWithPatterBuilder" classname="ReqResTests_10" time="1.879"/>
+  <system-out><![CDATA[2022-07-21T00:51:56,327 [Test worker] INFO  (BaseTest.java:21) - Iniciando la configuracion
+2022-07-21T00:51:56,347 [Test worker] INFO  (ApplicationProperties.java:31) - Property file to read application-dev.properties
+2022-07-21T00:51:56,348 [Test worker] INFO  (BaseTest.java:23) - finalizando la configuración
+****************************************************
+Request method:	POST
+Request URI:	https://reqres.in/api/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "pistol",
+    "email": "eve.holt@reqres.in"
+}
+HTTP/1.1 200 OK
+Date: Thu, 21 Jul 2022 03:51:11 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0J0AXa9oGebCHLIOYyMloMg%2BtVsHWaE0xZI5KhEumhUkBXDoVDUuGqLJoFvKsCuIYm4tOyLjWJEaltp6Qq4Zdj1V79VseyMuUiHK%2FfvyOeVfjx0f1L4sgosmiA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72e0fa058903ba73-EZE
+
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+******************* ASSERT *********************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

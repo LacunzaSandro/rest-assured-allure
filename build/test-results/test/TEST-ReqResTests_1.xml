@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReqResTests_1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-21T03:51:52" hostname="AR-IT25022" time="2.966">
+  <properties/>
+  <testcase name="loginTest" classname="ReqResTests_1" time="2.966"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Thu, 21 Jul 2022 03:51:09 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oVZQGAZAs3OUX33zmtrw03skIMWupbK676xhvjfG4TGNJaGEvKVrs3N9fru0cxLMBaQpFxFCAPXX8xg%2Bola3iV7hN1%2BH3oHaxzCHeNenVePQdDLTPREBfaUN3w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 72e0f9f8dae7ba71-EZE
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+{"token":"QpwL5tke4Pnpja7X4"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
