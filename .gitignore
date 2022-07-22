@@ -26,4 +26,3 @@ hs_err_pid*
 /.idea*
 /logs*
 automation*.log
-/gradle*
